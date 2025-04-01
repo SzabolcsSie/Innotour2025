@@ -53,19 +53,26 @@
     <Call UId="23">
       <CallInfo Name="Block_1" BlockType="FC" />
     </Call>
+    <Call UId="24">
+      <CallInfo Name="Block_2" BlockType="FC" />
+    </Call>
   </Parts>
   <Wires>
-    <Wire UId="24">
+    <Wire UId="25">
       <Powerrail />
       <NameCon UId="22" Name="in" />
     </Wire>
-    <Wire UId="25">
+    <Wire UId="26">
       <IdentCon UId="21" />
       <NameCon UId="22" Name="operand" />
     </Wire>
-    <Wire UId="26">
+    <Wire UId="27">
       <NameCon UId="22" Name="out" />
       <NameCon UId="23" Name="en" />
+    </Wire>
+    <Wire UId="28">
+      <NameCon UId="23" Name="eno" />
+      <NameCon UId="24" Name="en" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
