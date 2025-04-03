@@ -44,7 +44,7 @@
     <Access Scope="GlobalVariable" UId="21">
       <Symbol>
         <Component Name="Data_to_Safety" />
-        <Component Name="rcv_buffer2" AccessModifier="Array">
+        <Component Name="rcv_buffer" AccessModifier="Array">
           <Access Scope="LiteralConstant">
             <Constant>
               <ConstantType>DInt</ConstantType>

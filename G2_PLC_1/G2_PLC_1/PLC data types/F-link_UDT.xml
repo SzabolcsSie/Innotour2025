@@ -6,7 +6,7 @@
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
   <Section Name="None">
     <Member Name="ESTOP_OK" Datatype="Bool" />
-    <Member Name="ESTOP_ack_req" Datatype="Bool" />
+    <Member Name="ESTOP_input" Datatype="Bool" />
   </Section>
 </Sections></Interface>
       <IsFailsafeCompliant>true</IsFailsafeCompliant>

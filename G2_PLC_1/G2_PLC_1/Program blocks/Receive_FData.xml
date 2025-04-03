@@ -166,68 +166,7 @@
       </SW.Blocks.CompileUnit>
       <SW.Blocks.CompileUnit ID="B" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
-  <Parts>
-    <Access Scope="GlobalVariable" UId="21">
-      <Symbol>
-        <Component Name="Receive_FData_DB" />
-        <Component Name="TRCV_Instance" />
-        <Component Name="NDR" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="22">
-      <Symbol>
-        <Component Name="Data_to_Safety" />
-        <Component Name="rcv_buffer" AccessModifier="Array">
-          <Access Scope="LiteralConstant">
-            <Constant>
-              <ConstantType>DInt</ConstantType>
-              <ConstantValue>0</ConstantValue>
-            </Constant>
-          </Access>
-        </Component>
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="23">
-      <Symbol>
-        <Component Name="Receive_Flink" />
-        <Component Name="RCV_LENGTH" />
-      </Symbol>
-    </Access>
-    <Access Scope="GlobalVariable" UId="24">
-      <Symbol>
-        <Component Name="Data_to_Safety" />
-        <Component Name="rcv_buffer2" AccessModifier="Array">
-          <Access Scope="LiteralConstant">
-            <Constant>
-              <ConstantType>DInt</ConstantType>
-              <ConstantValue>0</ConstantValue>
-            </Constant>
-          </Access>
-        </Component>
-      </Symbol>
-    </Access>
-    <Part Name="MoveBlockU" UId="25" DisabledENO="true" />
-  </Parts>
-  <Wires>
-    <Wire UId="26">
-      <IdentCon UId="21" />
-      <NameCon UId="25" Name="en" />
-    </Wire>
-    <Wire UId="27">
-      <IdentCon UId="22" />
-      <NameCon UId="25" Name="in" />
-    </Wire>
-    <Wire UId="28">
-      <IdentCon UId="23" />
-      <NameCon UId="25" Name="count" />
-    </Wire>
-    <Wire UId="29">
-      <NameCon UId="25" Name="out" />
-      <IdentCon UId="24" />
-    </Wire>
-  </Wires>
-</FlgNet></NetworkSource>
+          <NetworkSource />
           <ProgrammingLanguage>FBD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>

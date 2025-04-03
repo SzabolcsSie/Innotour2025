@@ -6,7 +6,6 @@
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
   <Section Name="Static">
     <Member Name="rcv_buffer" Datatype="Array[0..121] of Byte" />
-    <Member Name="rcv_buffer2" Datatype="Array[0..121] of Byte" />
   </Section>
 </Sections></Interface>
       <MemoryLayout>Optimized</MemoryLayout>
