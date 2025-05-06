@@ -81,56 +81,6 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
-      <SW.Tags.PlcTag ID="D" CompositionName="Tags">
-        <AttributeList>
-          <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M10.2</LogicalAddress>
-          <Name>Tag_4</Name>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="E" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="F" CompositionName="Items">
-                <AttributeList>
-                  <Culture>de-DE</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-              <MultilingualTextItem ID="10" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Tags.PlcTag>
-      <SW.Tags.PlcTag ID="11" CompositionName="Tags">
-        <AttributeList>
-          <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M10.3</LogicalAddress>
-          <Name>Tag_5</Name>
-        </AttributeList>
-        <ObjectList>
-          <MultilingualText ID="12" CompositionName="Comment">
-            <ObjectList>
-              <MultilingualTextItem ID="13" CompositionName="Items">
-                <AttributeList>
-                  <Culture>de-DE</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-              <MultilingualTextItem ID="14" CompositionName="Items">
-                <AttributeList>
-                  <Culture>en-US</Culture>
-                  <Text />
-                </AttributeList>
-              </MultilingualTextItem>
-            </ObjectList>
-          </MultilingualText>
-        </ObjectList>
-      </SW.Tags.PlcTag>
     </ObjectList>
   </SW.Tags.PlcTagTable>
 </Document>
